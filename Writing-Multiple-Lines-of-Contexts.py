@@ -3,6 +3,12 @@
 #Assignment 4: Program 3
 #April 22, 2023
 
+print("*********************************************************")
+print("WRITING LINES OF CONTEXTS")
+print("Programmed by: John Carlo Ablay")
+print("*********************************************************")
+
+
 #PSEUDOCODE
 
 #make a function that will make every line and upload to the other file
