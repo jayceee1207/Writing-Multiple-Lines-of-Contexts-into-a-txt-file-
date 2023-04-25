@@ -30,6 +30,8 @@ def lines():
         if answer == 'n':
             break
     #       stop the code
-#close the file
+    my_file.close()
+    #close the file
 
 #call the function
+lines()
