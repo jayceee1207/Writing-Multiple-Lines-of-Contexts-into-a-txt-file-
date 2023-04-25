@@ -20,7 +20,7 @@ def lines():
     #while line is equal to y
     while answer == 'y' or 'Y':
         #   ask the user to input in the line
-        command = input('\n Enter line: ')
+        command = input('\nEnter line: ')
         command += '\n'
         #   write on the line
         my_file.write(command)
@@ -28,10 +28,12 @@ def lines():
         answer = input("Are there any more line/s? y or n? ")
         #   if answer is n
         if answer == 'n':
-            break
+            print("Thank you for using our program!")
+            breaK
     #       stop the code
     my_file.close()
     #close the file
 
 #call the function
 lines()
+
