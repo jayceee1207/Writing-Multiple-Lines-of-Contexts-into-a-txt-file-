@@ -3,11 +3,17 @@
 #Assignment 4: Program 3
 #April 22, 2023
 
-print("*********************************************************")
-print("WRITING LINES OF CONTEXTS")
-print("Programmed by: John Carlo Ablay")
-print("*********************************************************")
+import pyfiglet
+import emoji
+import os
 
+print("\u001b[37;1m","*********************************************************")
+print("\u001b[33;1m","WRITING MULTIPLE LINES IN A FILE")
+print("\u001b[33;1m","Programmed by: John Carlo Ablay")
+print("\u001b[37;1m","*********************************************************")
+
+title = pyfiglet.figlet_format("\nWRITING MULTIPLE LINES IN A FILE", font = "digital" )
+print(title)
 
 #PSEUDOCODE
 
@@ -29,7 +35,7 @@ def lines():
         #   if answer is n
         if answer == 'n':
             print("Thank you for using our program!")
-            breaK
+            break
     #       stop the code
     my_file.close()
     #close the file
@@ -37,3 +43,5 @@ def lines():
 #call the function
 lines()
 
+print("\nThank you for using our program!")
+print(emoji.emojize('Have a good day! :grinning_face:'))
