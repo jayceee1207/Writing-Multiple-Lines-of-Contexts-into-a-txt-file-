@@ -16,8 +16,11 @@ def lines():
 #open file named myfile.txt
     my_file = open("myfile.txt", "w")
     line = 'y' or 'Y'
-#while line is equal to y
-#   ask the user to input in the line
+            
+    #while line is equal to y
+    while line == 'y' or 'Y':
+        #   ask the user to input in the line
+        command = input('\n Enter line: ')
 #   write on the line
 #   ask the user if they want to add more lines
 #   if answer is n
