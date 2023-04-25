@@ -26,8 +26,10 @@ def lines():
         my_file.write(command)
         #   ask the user if they want to add more lines
         answer = input("Are there any more line/s? y or n? ")
-#   if answer is n
-#       stop the code
+        #   if answer is n
+        if answer == 'n':
+            break
+    #       stop the code
 #close the file
 
 #call the function
